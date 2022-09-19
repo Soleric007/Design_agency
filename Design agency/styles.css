@@ -1,0 +1,802 @@
+* {
+   box-sizing: border-box; 
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 4500px;
+}
+#span {
+    color: #f55f1d;
+}
+span {
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.navbar{
+    background-color: #D7F5DC;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 760px;
+}
+ul{
+    list-style-type: none;
+    align-items: center;
+}
+.topnav {
+    padding-left: 400px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+.btn1 {
+    width: 90px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: #D7F5DC;
+    color: #000;
+    border: 1px solid #20b15a;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    transform: scale(0.90);
+}
+.btn2 {
+    width: 110px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #20b15a;
+    color: #fff;
+    border: 1px solid #20b15a;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    transform: scale(0.90);
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: #000;
+    padding: 20px;
+    margin:0;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #fff solid;
+}
+
+
+
+.container {
+    margin-left: 0px;
+    padding: 0 40px;
+    align-items:center;
+    justify-content: space-between;
+}
+    
+
+.flex {
+    display: flex;
+}
+select {
+    border: none;
+    background-color: #D7F5DC;
+    width: 100px;
+    font-size: 16px;  
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+.containers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img1 {
+    padding-left: 100px;
+}
+
+.label {
+    font-size: 50px;
+    font-size: bold;
+    padding-left: 43px;
+}
+
+.we {
+    padding-left: 43px;
+    margin-bottom: 0;
+}
+
+.img2 {
+    
+    background-color: #fff;
+    
+}
+#img2 {
+    padding-right: 122px;
+    padding-top: 30px;
+
+    
+}
+#img1 {
+    padding-right: 120px;
+    padding-left: 50px;
+    
+}
+.box{
+    width: 100%;
+    height: 100px;
+    border: 1px solid ;
+    border: none;
+    background-color: #fff;
+}
+
+div .what{
+    padding-left: 50px;
+    color: #20b15a;
+    margin-bottom: 20px;
+    margin-top: 90px;
+    font-size: 20px;
+}
+h3{
+    padding-left: 50px;
+    font-size: 25px;
+}
+.span1 {
+    padding-left:10px; 
+}
+
+#span1{
+    font-weight: lighter;
+}
+#arrow {
+    width: 12px;
+    height: 12px;
+}
+.navbar2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+    margin-right: 70px;
+    margin-top: 100px;
+}
+
+.home {
+    padding-left: 40px;
+}
+#home{
+    color: #20b15a;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 30px;
+}
+.home2 {
+    padding-left: 45px;
+}
+#home2{
+    color: #20b15a;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 50px;
+}
+.home3 {
+    padding-left: 30px;
+}
+#home3{
+    color: #20b15a;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 15px;
+}
+.home4{
+    padding-left: 30px;
+}
+#home4{
+    color: #20b15a;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 25px;
+}
+.div4{
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width:100%;
+    height: 300px;
+    margin-top: 100px;
+    border: none;
+    background-color: #fafffb;
+    
+
+}
+#div4 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    
+}
+.line {
+    border-right: 1px solid;
+    padding-right: 5rem;
+    padding-left: 2rem;
+    margin-right: -50px;
+}
+#grid {
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.grid1 {
+    padding-bottom: 70px;
+}
+
+#arrow2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+   
+}
+.grido{
+   display: grid;
+   grid-template-columns: auto auto;
+   position: absolute;
+}
+#grido{
+    padding-left: 10px;
+}
+.test{
+    border: 1px solid #FFFFFF;
+    width: 470px;
+    height: 220px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.bn2 {
+    background-color:transparent;
+    border-radius: 50px; 
+    border:1px solid black;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 17px;
+}
+.bn {
+    background-color:transparent;
+    border-radius: 50px; 
+    border:1px solid ;
+    background-color: #D7F5DC;
+    border: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    font-size: 17px;
+}
+.vibe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#vibe {
+    padding-right: 60px;
+}
+.div5 {
+    align-items: center;
+    padding-top: 130px;
+    text-align: center;
+}
+.say {
+    opacity: 0.5;
+    
+}
+.if {
+    color: #20b15a;
+}
+form {
+    text-align: center;
+    align-items: center;
+}
+
+form.example input[type=text] {
+    width: 550px;
+    padding: 7px;
+    border: 7px;
+    border: 1px solid gainsboro;
+    height: 45px;
+    background: #ffffff;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+form.example button {
+    padding: 7px;
+   width: 100px; 
+   height: 40px;
+   background-color: #f55f1d;
+   text-align: center;
+   color: white;
+   border: 1px solid #f55f1d;
+   cursor: pointer;
+   border-left: none;
+   border-radius: 10px;
+   position: absolute;
+   left: 803px;
+   top: 4043px;
+}
+
+form.example button:hover {
+    background: #f55f4d;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.social {
+    width: 30px;
+    height:30px;
+    border-radius: 500px;
+    margin-bottom: 30px;
+}
+.theend{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid #00ca72;
+    background-color: #00ca72;
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    padding-left: 50px;
+    margin-top: 130px;
+    justify-content: space-between;
+}
+.botnav {
+    display: flex;
+    flex-direction: column;
+    
+}
+li {
+   padding-bottom: 20px;
+}
+#end {
+    padding-left: 10px;
+}
+
+@media (max-width:450px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .topnav {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0px;
+    }
+    #btn1 {
+        padding-left: 0;
+    }
+    .label ,.we ,.img1{
+        font-size: 25px;
+        padding-left: 10px;
+    }
+    .we {
+        font-size: 15px;
+    }
+    .obob {
+        padding-left: 10px;
+    }
+    .img1 {
+        height: 300px;
+    }
+    .containers {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .box {
+        padding-left: 10px;
+    }
+    #img1 {
+        padding-left: 10px;
+    }
+    div .what {
+        padding-top: 150px;
+        padding-left: 10px;
+    }
+    h3 {
+        padding-left: 10px;
+    }
+    .navbar2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .bow1 ,.bow2 ,.bow3 {
+        padding-bottom: 30px;
+        padding-left: 10px;
+    }
+    #div4 {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        
+    }
+    .line {
+        padding: 0;
+        align-items: center;
+        padding-left: 120px;
+    }
+    .div33 {
+        padding-top: 300px;
+    }
+    #grid {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        padding-left: 10px;
+        margin: 0;
+    }
+    .ah {
+        height: 200px;
+    }
+    .grid1 ,.grid2 {
+        padding-bottom: 20px;
+    }
+    #way {
+        padding-top: 40px;
+    }
+    #vibe {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        padding-right: 30px;
+    }
+    .test {
+        margin-bottom: 50px;
+        width: 300px;
+    }
+    .say {
+        font-size: 15px;
+    }
+    form.example input[type=text] {
+        width: 350px;
+        font-size: 13px;
+    }
+    form.example button {
+        left: 260px;
+        top: 6420px;
+    }
+    .theend {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 0;
+        text-align: center;
+    }
+    .buga {
+        font-size: 25px;
+    }
+    .owe {
+        text-align: center;
+    }
+    .foot {
+        padding-left: 10px;
+    }
+    .botnav {
+        padding-right: 50px;
+    }
+    h4 {
+        font-size: 25px;
+        padding: 0;
+    }
+}
+@media (min-width:386px) and (max-width:700px){
+    form.example button {
+        left: 260px;
+        top: 6360px;
+    }
+}
+@media (min-width:400px) and(max-width:700px){
+    form.example button {
+        left: 270px;
+        top: 6247px;
+    }
+}
+@media (min-width:700px) and (max-width:1000px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .topnav {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0px;
+    }
+    #btn1 {
+        padding-left: 0;
+    }
+    .label ,.we ,.img1{
+        font-size: 25px;
+        padding-left: 10px;
+    }
+    .we {
+        font-size: 15px;
+    }
+    .obob {
+        padding-left: 10px;
+    }
+    .img1 {
+        height: 300px;
+    }
+    .containers {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .box {
+        padding-left: 10px;
+    }
+    #img1 {
+        padding-left: 10px;
+    }
+    div .what {
+        padding-top: 150px;
+        padding-left: 10px;
+    }
+    h3 {
+        padding-left: 10px;
+    }
+    .navbar2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+    .bow1 ,.bow2 ,.bow3 {
+        padding-bottom: 30px;
+        padding-left: 10px;
+    }
+    #div4 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .line {
+        border: none;
+        width: auto;
+        }
+    .div33 {
+        padding-top: 300px;
+    }
+    /* #grid {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        padding-left: 10px;
+        margin: 0;
+    }
+
+    .grid1 ,.grid2 {
+        padding-bottom: 20px;
+    } */
+    #grid {
+        display: grid;
+        grid-template-columns: auto auto ;
+        padding-left: 50px;
+        padding-top: 50px;
+        width: auto;
+    }
+    .ah {
+        height: 200px;
+    }
+    
+    .grid1 {
+        padding-bottom: 70px;
+    }
+    #way {
+        padding-top: 40px;
+    }
+    #vibe {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        padding-right: 30px;
+    }
+    .test {
+        margin-bottom: 50px;
+        width: 300px;
+    }
+    .say {
+        font-size: 15px;
+    }
+    form.example input[type=text] {
+        width: 350px;
+        font-size: 13px;
+    }
+    form.example button {
+        left: 425px;
+        top: 5543px;
+    }
+    .theend {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 0;
+        text-align: center;
+    }
+    .buga {
+        font-size: 25px;
+    }
+    .owe {
+        text-align: center;
+    }
+    .foot {
+        padding-left: 10px;
+    }
+    .botnav {
+        padding-right: 50px;
+    }
+    h4 {
+        font-size: 25px;
+        padding: 0;
+    }
+}
+@media (min-width:451px) and (max-width:700px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .topnav {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0px;
+    }
+    #btn1 {
+        padding-left: 0;
+    }
+    .label ,.we ,.img1{
+        font-size: 25px;
+        padding-left: 10px;
+    }
+    .we {
+        font-size: 15px;
+    }
+    .obob {
+        padding-left: 10px;
+    }
+    .img1 {
+        height: 300px;
+    }
+    .containers {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .box {
+        padding-left: 10px;
+    }
+    #img1 {
+        padding-left: 10px;
+    }
+    div .what {
+        padding-top: 150px;
+        padding-left: 10px;
+    }
+    h3 {
+        padding-left: 10px;
+    }
+    .navbar2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+    .bow1 ,.bow2 ,.bow3 {
+        padding-bottom: 30px;
+        padding-left: 10px;
+    }
+    #div4 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .line {
+        border: none;
+        width: auto;
+        }
+    .div33 {
+        padding-top: 300px;
+    }
+    #grid {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        padding-left: 10px;
+        margin: 0;
+    }
+    .ah {
+        height: 200px;
+    }
+    .grid1 ,.grid2 {
+        padding-bottom: 20px;
+    }
+    #way {
+        padding-top: 40px;
+    }
+    #vibe {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        padding-right: 30px;
+    }
+    .test {
+        margin-bottom: 50px;
+        width: 300px;
+    }
+    .say {
+        font-size: 15px;
+    }
+    form.example input[type=text] {
+        width: 350px;
+        font-size: 13px;
+    }
+    form.example button {
+        left: 323px;
+        top: 6143px;
+    }
+    .theend {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 0;
+        text-align: center;
+    }
+    .buga {
+        font-size: 25px;
+    }
+    .owe {
+        text-align: center;
+    }
+    .foot {
+        padding-left: 10px;
+    }
+    .botnav {
+        padding-right: 50px;
+    }
+    h4 {
+        font-size: 25px;
+        padding: 0;
+    }
+}
